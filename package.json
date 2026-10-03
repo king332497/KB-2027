@@ -1,0 +1,12 @@
+{
+  "name": "kbstar-independent-prototype-admin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test QA/server.test.mjs QA/help.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
